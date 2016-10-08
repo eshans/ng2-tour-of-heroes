@@ -13,11 +13,13 @@ it's probably best to install the latest versions.
 ## Usage
 
 ### Clone and install
+The clone step assumes SSH keys are set up. If not, clone using `https`.
 ```bash
-# this clone step assumes SSH keys are set up
-# if not, clone using `https` instead.
+# clone and switch directories
 git clone git@github.com:eshans/ng2-tour-of-heroes.git
 cd ng2-tour-of-heroes
+
+# install npm packages
 npm install
 ```
 
@@ -25,11 +27,14 @@ npm install
 ```bash
 # will watch for changes
 npm start
+
+# open in browser
+http://localhost:8080/
 ```
 
 ### Run unit tests
 ```bash
-# runs tests a single time
+# run tests a single time
 npm test
 ```
 
