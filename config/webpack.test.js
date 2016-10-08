@@ -8,5 +8,8 @@ module.exports = {
   },
   module: {
     loaders: loaders
+  },
+  sassLoader: {
+    includePaths: ['./src/assets', './node_modules/bootstrap/scss']
   }
 };
