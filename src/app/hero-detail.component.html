@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tour of Heroes</title>
+
+</head>
+<body>
+ <div *ngIf = "hero">
+  <h2> {{hero.name}} details! </h2>
+<div>
+  <label> id: </label>{{hero.id}}</div>
+  <input [(ngModel)] = "hero.name" placeholder ="name" />
+
+</div>
+<button (click) = "goBack()">Back </button>
+  </body>
+</html>
+
+ 
