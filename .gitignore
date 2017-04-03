@@ -5,3 +5,4 @@ typings
 out
 .idea/
 npm-debug.*
+.DS_Store
